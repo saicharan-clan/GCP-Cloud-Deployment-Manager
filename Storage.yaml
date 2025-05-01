@@ -1,0 +1,9 @@
+resources:
+- name: my-storage-bucket
+  type: storage.v1.bucket
+  properties:
+    location: US
+    storageClass: STANDARD
+    accessControl:
+      - role: READER
+        entity: allUsers
